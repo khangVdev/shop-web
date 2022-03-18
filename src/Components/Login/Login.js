@@ -28,11 +28,21 @@ class ConnectedLogin extends Component {
         <Helmet>
           <title>{`Login}`}</title>
           <meta content="Login description" name="description" />
+          <meta content="Login description" name="og:description" />
           <meta content="Login - twitter:title" property="twitter:title" />
           <meta content="Login - og:title" property="og:title" />
           <meta
             content="https://codelearn.io/Upload/Blog/tao-mot-form-login-co-ban-trong-java-63730679233.2311.jpg"
             property="og:image"
+          />
+          <meta
+            property="og:url"
+            content={
+              window.location.protocol +
+              "//" +
+              window.location.host +
+              window.location.pathname
+            }
           />
         </Helmet>
         <div
