@@ -13,7 +13,7 @@ class Footer extends Component {
           height: 100,
           backgroundColor: "#f1f1f1",
           justifyContent: "space-around",
-          display: "flex"
+          display: "flex",
         }}
       >
         <div>
@@ -27,25 +27,25 @@ class Footer extends Component {
             exact
             style={{
               textDecoration: "none",
-              color: "rgb(32, 32, 34)"
+              color: "rgb(32, 32, 34)",
             }}
             activeStyle={{
               color: "#4282ad",
-              textDecoration: "underline"
+              textDecoration: "underline",
             }}
           >
-            <div className="footerItem">Terms of payment</div>
+            <div className="footerItem">Terms of payment Helmet</div>
           </NavLink>
           <NavLink
             to={"/delivery"}
             exact
             style={{
               textDecoration: "none",
-              color: "rgb(32, 32, 34)"
+              color: "rgb(32, 32, 34)",
             }}
             activeStyle={{
               color: "#4282ad",
-              textDecoration: "underline"
+              textDecoration: "underline",
             }}
           >
             <div className="footerItem">Delivery</div>
@@ -62,11 +62,11 @@ class Footer extends Component {
             exact
             style={{
               textDecoration: "none",
-              color: "rgb(32, 32, 34)"
+              color: "rgb(32, 32, 34)",
             }}
             activeStyle={{
               color: "#4282ad",
-              textDecoration: "underline"
+              textDecoration: "underline",
             }}
           >
             <div className="footerItem">Company Info</div>
@@ -83,7 +83,7 @@ class Footer extends Component {
             target="blank"
             style={{
               textDecoration: "none",
-              color: "rgb(32, 32, 34)"
+              color: "rgb(32, 32, 34)",
             }}
           >
             <div className="footerItem">Facebook</div>
