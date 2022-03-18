@@ -10,7 +10,7 @@ import Order from "./Components/Order/Order";
 import Login from "./Components/Login/Login";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import Footer from "./Components/Footer/Footer";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 class App extends Component {
   render() {
