@@ -26,7 +26,7 @@ class ConnectedLogin extends Component {
     return (
       <>
         <Helmet>
-          <title>{`Login}`}</title>
+          <title>{`Login`}</title>
           <meta content="Login description" name="description" />
           <meta content="Login description" name="og:description" />
           <meta content="Login - twitter:title" property="twitter:title" />

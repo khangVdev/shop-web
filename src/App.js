@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Helmet>
+        {/* <Helmet>
           <meta charSet="utf-8" />
           <title>Trove Collective</title>
           <link rel="canonical" href="https://www.trovecollective.co/" />
@@ -35,7 +35,7 @@ class App extends Component {
             content="https://uploads-ssl.webflow.com/615deea09f73ef5291d8fde8/6171bf04da07417002764021_Open%20Graph%20(1).png"
             property="og:image"
           />
-        </Helmet>
+        </Helmet> */}
         <Header />
         <div className="app-body">
           <Menu />
